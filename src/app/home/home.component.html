@@ -1,4 +1,7 @@
 <div class="test">
     <h3>This is Home component</h3>
-    <p>Just another line in the home component</p>
+    <input type="text" [(ngModel)]="name">
+    <h2>Hello friend: {{ name }}</h2>
+    <br />
+    <button (click)="resetName()">Reset name</button>
 </div>
